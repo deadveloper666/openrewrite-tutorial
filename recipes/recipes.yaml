@@ -1,6 +1,6 @@
 ---
 type: specs.openrewrite.org/v1beta/recipe
-name: com.openrewrite.demo.ChangeParentPom
+name: com.openrewrite.demo.Recipe1
 displayName: Change Maven Parent Pom
 recipeList:
   - org.openrewrite.maven.ChangeParentPom:
@@ -12,4 +12,4 @@ recipeList:
   - org.openrewrite.maven.UpgradeParentVersion:
       groupId: org.springframework.boot
       artifactId: spring-boot-starter-parent
-      newVersion: 3.1.0      
+      newVersion: 3.1.0  
